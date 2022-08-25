@@ -11,7 +11,7 @@
 <body class="light-theme" aria-label="O site está utilizando o tema light" role="body">
     <header aria-label="Cabeçalho da página.">
         <audio id="music">
-            <source src="assets/music/normal-world.mpeg" />
+            <source src="assets/music/normal-world.mpeg" aria-details="Audio do site"/>
         </audio>
         <div class="header-content">
             <img class="invert-element" src="assets/images/banner/logo.svg" alt="Imagem principal Mundo Invertido. 
@@ -106,6 +106,7 @@
                         <label for="character">Personagem</label>
                         <textarea name="character" id="txtcharacter" cols="30" rows="10"></textarea>
 
+                        <button type="button" id="btnSubscribe">Me inscrever</button>
                     </form>
                 </div>
             </div>
@@ -118,6 +119,7 @@
         </p>
         <img src="assets/images/footer/logo.svg" alt="Logotipo DIO" />
     </footer>
-
+    <script type="module" src="assets/js/main.js"></script>
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>
